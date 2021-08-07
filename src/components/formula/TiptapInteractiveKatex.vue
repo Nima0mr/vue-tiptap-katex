@@ -79,44 +79,36 @@
                           {
                             class: "keycap tex",
                             insert: "$$\\rightarrow$$",
-                            label:this.icons.test
                           },
                           {
                             class: "keycap tex",
                             insert: "$$\\uparrow$$",
-                            label:this.icons.test
                           },
                           {
                             class: "keycap tex",
                             insert: "$$\\downarrow$$",
-                            label:this.icons.test
                           },
                           {
                             class: "keycap tex",
                             insert: "$$\\gets$$",
-                            label: this.icons.test
                           },
                           { class: "separator w5" },
                           {
                             class: "keycap tex",
                             insert: "$$\\le$$",
-                            label:this.icons.test
                           },
                           {
                             class: "keycap tex",
                             insert: "$$\\geq$$",
-                            label:this.icons.test
                           },
                           { class: "separator w5" },
                           {
                             class: "keycap tex",
                             insert: "$$\\land$$",
-                            label:this.icons.test
                           },
                           {
                             class: "keycap tex",
                             insert: "$$\\lor$$",
-                            label:this.icons.test
                           },
                           { class: "separator w5" },
                         ],
@@ -124,17 +116,14 @@
                           {
                             class: "keycap tex",
                             insert: "$$\\nearrow$$",
-                            label:this.icons.test
                           },
                           {
                             class: "keycap tex",
                             insert: "$$\\nwarrow$$",
-                            label:this.icons.test
                           },
                           {
                             class: "keycap tex",
                             insert: "\\leftrightharpoons$$",
-                            label: this.icons.test
                           },
                           { class: "separator w5" },
                           { class: "separator w5" },
@@ -142,127 +131,190 @@
                           {
                             class: "keycap tex",
                             insert: "$$\\leqslant$$",
-                            label:this.icons.test
                           },
                           {
                             class: "keycap tex",
                             insert: "$$\\geqslant$$",
-                            label:this.icons.test
+                          },
+                          {
+                            class: "keycap tex",
+                            insert: "$$\\simeq$$",
+
                           },
                           { class: "separator w5" },
                           {
                             class: "keycap tex",
                             insert: "$$\\cup$$",
-                            label:this.icons.test
                           },
                           {
                             class: "keycap tex",
                             insert: "$$\\cap$$",
-                            label:this.icons.test
                           },
                         ],
                         [
                           {
                             class: "keycap tex",
                             insert: "$$\\searrow$$",
-                            label:this.icons.test
                           },
                           {
                             class: "keycap tex",
                             insert: "$$\\swarrow$$",
-                            label:this.icons.test
                           },
                           {
                             class: "keycap tex",
                             insert: "$$\\leftrightarrow$$",
-                            label:this.icons.test
                           },
                           { class: "separator w5" },
                           { class: "separator w5" },
                           {
                             class: "keycap tex",
                             insert: "$$\\N$$",
-                            label:this.icons.test
                           },
                           {
                             class: "keycap tex",
                             insert: "$$\\R$$",
-                            label:this.icons.test
                           },
                           {
                             class: "keycap tex",
                             insert: "$$\\Z$$",
-                            label:this.icons.test
+                          },
+                          {
+                            class: "keycap tex",
+                            insert: "$$\\Bbb{W}$$",
                           },
                           { class: "separator w5" },
                           {
                             class: "keycap tex",
                             insert: "$$\\odot$$",
-                            label:this.icons.test
                           },
                           {
                             class: "keycap tex",
                             insert: "$$\\otimes$$",
-                            label:this.icons.test
                           },
                           {
                             class: "keycap tex",
                             insert: "$$\\surd$$",
-                            label:this.icons.test
                           },
                         ],
                         [
                           {
                             class: "keycap tex",
                             insert: "$$\\Rightarrow$$",
-                            label:this.icons.test
                           },
                           {
                             class: "keycap tex",
                             insert: "$$\\Leftrightarrow$$",
-                            label:this.icons.test
                           },
                           {
                             class: "keycap tex",
                             insert: "$$\\Leftarrow$$",
-                            label:this.icons.test
                           },
                           { class: "separator w5" },
                           {
                             class: "keycap tex",
                             insert: "$$\\Delta$$",
-                            label:this.icons.test
                           },
                           {
                             class: "keycap tex",
                             insert: "$$\\alpha$$",
-                            label:this.icons.test
                           },
                           {
                             class: "keycap tex",
                             insert: "$$\\exists$$",
-                            label:this.icons.test
                           },
                           {
                             class: "keycap tex",
                             insert: "$$\\Omega$$",
-                            label:this.icons.test
+
                           },
                           {
                             class: "keycap tex",
                             insert: "$$\\ell$$",
-                            label:this.icons.test
+
                           },
                           { class: "separator w5" },
                           {
                             class: "keycap tex",
                             insert: "$$\\varnothing$$",
-                            label:this.icons.test
+
+                          },
+                          {
+                            class: "keycap tex",
+                            insert: "$$\\cancel{C}$$",
+
                           },
                           {
                             class: "keycap tex",
                             insert: "$$\\^$$",
-                            label:this.icons.test
+
+                          },
+                        ],
+                        [
+                          {
+                            class: "keycap tex",
+                            insert: "$$\\hat{#@}$$",
+                          },
+                          { class: "separator w5" },
+                          {
+                            class: "keycap tex",
+                            insert: "$$\\xLeftarrow{#@}$$",
+                          },
+                          {
+                            class: "keycap tex",
+                            insert: "$$\\xRightarrow{#@}$$",
+                          },
+                          {
+                            class: "keycap tex",
+                            insert: "$$\\xLeftrightarrow{#@}$$",
+                          },
+                          { class: "separator w5" },
+                          {
+                            class: "keycap tex",
+                            insert: "$$\\xleftarrow{#@}$$",
+                          },
+                          {
+                            class: "keycap tex",
+                            insert: "$$\\xrightarrow{#@}$$",
+                          },
+                          {
+                            class: "keycap tex",
+                            insert: "$$\\xleftrightarrow{#@}$$",
+                          },
+                          {
+                            class: "keycap tex",
+                            insert: "$$\\xtofrom{#@}$$",
+                          },
+                          { class: "separator w5" },
+                          {
+                            class: "keycap tex",
+                            insert: "$$\\frac{#@}{#@}$$",
+                          },
+                          {
+                            class: "keycap tex",
+                            insert: "$${#@}/{#@}$$",
+                          },
+                        ],
+                        [
+                          {
+                            class: "keycap tex",
+                            insert: "$${#@}_u^o$$",
+                          },
+                          {
+                            class: "keycap tex",
+                            insert: "$$\\sqrt{#@}$$",
+                          },
+                          { class: "separator w5" },
+                          {
+                            class: "keycap tex",
+                            insert: "$$\\cancel{#@}$$",
+                          },
+                          {
+                            class: "keycap tex",
+                            insert: "$$\\bcancel{#@}$$",
+                          },
+                          {
+                            class: "keycap tex",
+                            insert: "$$\\xcancel{#@}$$",
                           },
                         ]
                     ]
@@ -768,6 +820,10 @@
 </style>
 
 <style>
+    .ML__mathlive .ML__base span span span span span span span svg {
+        width: 300em !important;
+        height: 0.5em !important;
+}
     .converted p {
         margin-bottom: 0 !important;
     }
