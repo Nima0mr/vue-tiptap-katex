@@ -140,7 +140,7 @@ export default {
     }
   },
   created() {
-    this.katex = this.node.attrs.katex
+    this.katex = this.node.attrs.katex.toString()
     this.editMode = this.node.attrs.editMode
     this.overrideKeyboardEvent()
   },
