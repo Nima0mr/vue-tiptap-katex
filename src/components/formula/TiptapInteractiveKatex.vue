@@ -268,6 +268,7 @@ export default {
             this.editor.chain().focus('end').run()
             return false
           }
+
           for (let i = 0; i < katexShortkeys.length; i++) {
             if (keystroke === katexShortkeys[i].shortKey && katexShortkeys[i].class === 'math') {
               mf.insert(katexShortkeys[i].insert)
