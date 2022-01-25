@@ -249,7 +249,7 @@ export default {
         customVirtualKeyboardLayers: EXTRA_KEYBOARD_LAYER,
         customVirtualKeyboards: EXTRA_KEYBOARD,
         virtualKeyboards: this.keyboardList,
-        onKeystroke: (mathfield, keystroke /* , ev */) => {
+        onKeystroke: (mathfield, keystroke, ev) => {
           // console.log('ev', ev)
           // console.log('mathfield', mathfield)
           if (this.checkKeyboardLanguage(ev)) {
