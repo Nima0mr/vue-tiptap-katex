@@ -140,7 +140,7 @@ export default {
     }
   },
   created() {
-    this.katex = this.node.attrs.katex.toString()
+    this.katex = this.node.attrs.katex
     this.editMode = this.node.attrs.editMode
     this.overrideKeyboardEvent()
   },
@@ -239,6 +239,11 @@ export default {
     getMathliveValue (mf) {
       return mf.getValue().replaceAll('\\mleft', '\\left').replaceAll('\\mright', '\\right')
     },
+    checkKeyboardLanguage(input){
+      const re = /\d|\w|[\.\$@\*\\\/\+\-\^\!\(\)\[\]\~\%\&\=\?\>\<\{\}\"\'\,\:\;\_]/g;
+      let a = input.key.match(re);
+      return a === null || input.key === '[';
+    },
     loadMathLive() {
       let mathliveOptions = {
         customVirtualKeyboardLayers: EXTRA_KEYBOARD_LAYER,
@@ -247,6 +252,16 @@ export default {
         onKeystroke: (mathfield, keystroke /* , ev */) => {
           // console.log('ev', ev)
           // console.log('mathfield', mathfield)
+          if (this.checkKeyboardLanguage(ev)) {
+            if (keystroke === 'shift+[KeyP]') {
+              mf.insert('چ')
+              return false
+            }
+            if (keystroke === 'shift+[KeyF]') {
+              mf.insert('پ')
+              return false
+            }
+          }
           if (keystroke === 'ctrl+[Enter]') {
             this.mf.executeCommand('toggleVirtualKeyboard')
             this.toggleEdit()
